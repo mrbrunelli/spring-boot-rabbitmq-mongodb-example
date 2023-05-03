@@ -9,5 +9,5 @@ import org.springframework.boot.runApplication
 class RabbitmqconsumerApplication
 
 fun main(args: Array<String>) {
-	runApplication<RabbitmqconsumerApplication>(*args)
+    runApplication<RabbitmqconsumerApplication>(*args)
 }

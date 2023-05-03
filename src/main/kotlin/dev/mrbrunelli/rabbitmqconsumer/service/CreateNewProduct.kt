@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service
 
 @Service
 class CreateNewProduct(private val productRepository: ProductRepository) {
-    fun exec(p: Product) {
-        productRepository.save(p)
+    fun exec(p: Product): Product {
+        return productRepository.save(p)
     }
 }

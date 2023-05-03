@@ -5,7 +5,7 @@ import dev.mrbrunelli.rabbitmqconsumer.model.Product
 import org.springframework.stereotype.Component
 
 @Component
-class CreateProductMapper : Mapper<CreateProductDTO, Product> {
+class ProductMapper : Mapper<CreateProductDTO, Product> {
     override fun map(f: CreateProductDTO): Product {
         return Product(
             name = f.name,
